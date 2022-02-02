@@ -1,0 +1,48 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "A SmartThinQ LGE érzékelőknek csak egyetlen konfigurációja engedélyezett.",
+            "no_smartthinq_devices": "Nem találtunk SmartThinQ-eszközöket. A komponens beállítása megszakadt.",
+            "unsupported_version": "Ehhez az integrációhoz legalább a HomeAssistant {req_ver} verziója szükséges, Ön a {run_ver} verziót használja."
+        },
+        "error": {
+            "error_url": "Hiba történt a bejelentkezési URL lekérésekor a ThinQ-ból.",
+            "invalid_region": "Érvénytelen régióformátum.",
+            "invalid_language": "Érvénytelen nyelvi formátum.",
+            "invalid_url": "Érvénytelen átirányítási URL. Győződjön meg róla, hogy a telefonján el tudja érni a ThinQ alkalmazást. Támogatást itt kaphat:(https://git.io/JTjid).",
+            "invalid_credentials": "Érvénytelen SmartThinQ hitelesítési adatok. Próbálja újra, és győződjön meg arról, hogy hozzáfér a ThinQ alkalmazáshoz a telefonján.",
+            "no_user_info": "Felhasználónév és jelszó szükséges."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "username": "LG-fiók felhasználónév",
+                    "password": "Jelszó",
+                    "region": "Ország kódja",
+                    "language": "Nyelv kód",
+                    "use_redirect": "Használja az URL-átirányítás hitelesítési módszert",
+                    "use_tls_v1": "TLSv1 protokoll használatának kikényszerítése (néha szükséges)",
+                    "exclude_dh": "Ne használjon DH titkosítást (a 'dh key too small' hiba esetén)"
+                },
+                "description": "Válassza ki SmartThinQ-fiókjának lokalizációs adatait.",
+                "title": "SmartThinQ LGE érzékelők"
+            },
+            "url": {
+                "data": {
+                    "login_url": "SmartThinQ bejelentkezési URL",
+                    "callback_url": "Átirányítási URL"
+                },
+                "description": "Használja az első mezőben található URL-t a SmartThinQ-ba való bejelentkezéshez a hitelesítő adataival, majd a második mezőbe illessze be azt az URL-t, ahová a böngésző át van irányítva a bejelentkezés után. Ossza meg visszajelzését a beállítással kapcsolatban itt:(https://git.io/JU166).",
+                "title": "SmartThinQ LGE érzékelők - Hitelesítés"
+            },
+            "token": {
+                "data": {
+                    "token": "Token frissítése"
+                },
+                "description": "Mentse el a generált tokent későbbi használatra, majd erősítse meg a konfiguráció befejezéséhez.",
+                "title": "SmartThinQ LGE érzékelők - Új frissítési token"
+            }
+        },
+        "title": "SmartThinQ LGE érzékelők"
+    }
+}
